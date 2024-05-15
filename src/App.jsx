@@ -1,13 +1,15 @@
 import './App.css';
+import Nav from "./components/Nav";
+import About from "./components/About";
 
 function App() {
 
   return (
     <>
-      <div>
-        <h1>JOHN HERRON</h1>
-        <p>Hello World!</p>
-      </div>
+      <Nav />
+      <About />
+      {/* <Experience />
+      <Projects /> */}
     </>
   );
 }
