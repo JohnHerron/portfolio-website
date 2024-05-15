@@ -1,11 +1,42 @@
 .aboutContainer {
+    background-color: inherit;
     width: 70%;
     height: fit-content;
-    background-color: #3a4c5a;
     display: flex;
     justify-content: center;
+    margin: 150px 0px;
 }
 
 .nameBlock {
     display: grid;
+    background-color: inherit;
+    align-content: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    background-color: inherit;
+    margin: 0px;
+}
+
+h3 {
+    font-size: 2rem;
+    background-color: inherit;
+    margin: 0px;
+}
+
+span {
+    color: orange;
+    background-color: inherit;
+}
+
+img {
+    background-color: inherit;
+}
+
+p {
+    color:rgb(221, 221, 221);
+    font-size: 1.2rem;
+    background-color: inherit;
+    width: 80%;
 }
