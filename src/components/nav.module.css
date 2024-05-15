@@ -1,15 +1,17 @@
 .nav {
+    position: fixed;
+    width: 100%;
     font-size: 2em;
     font-weight: bold;
     color: #393e46;
     padding: 30px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     text-align: center;
-    border-radius: 4px;
     display: flex;
     justify-content: space-between;
     background-color: 	#201d1d;
     color: white;
+    box-sizing: border-box;
 }
 
 .helloContainer {
@@ -44,8 +46,7 @@
 
 .btnContainer {
     background-color: 	#201d1d;
-    width: 50%;
     display: flex;
     flex-direction: row-reverse;
-    gap: 10%;
+    gap: 20%;
 }
