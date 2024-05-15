@@ -1,0 +1,11 @@
+.aboutContainer {
+    width: 70%;
+    height: fit-content;
+    background-color: #3a4c5a;
+    display: flex;
+    justify-content: center;
+}
+
+.nameBlock {
+    display: grid;
+}
