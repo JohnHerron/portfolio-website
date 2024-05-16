@@ -8,7 +8,7 @@ export default function About() {
                 <h2>John <span className={style.lastName}>Herron</span></h2>
                 <p>I am graduating with a Computer Science degree from California State University-Fullerton. My passions include gaming, training, and cooking.</p>
             </div>
-            <img src="../../display.png"></img>
+            <img src="src\assets\display.png"></img>
         </div>
     );
 }
