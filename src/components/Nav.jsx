@@ -10,6 +10,11 @@ export default function Nav() {
             </div>
             <div className={style.btnContainer}>
                 <button className={style.button}>
+                    <Link className={style.btnLink} to='contact' offset={-250} smooth={true} duration-500>
+                        <span className={style.linkText}>Contact</span>
+                    </Link>
+                </button>
+                <button className={style.button}>
                     <Link className={style.btnLink} to='projects' offset={-250} smooth={true} duration-500>
                         <span className={style.linkText}>Projects</span>
                     </Link></button>
