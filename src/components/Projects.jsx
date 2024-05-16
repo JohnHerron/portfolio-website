@@ -17,6 +17,16 @@ export default function Projects() {
                     img="https://www.wargamer.com/wp-content/sites/wargamer/2022/06/how-to-play-checkers-red-and-black.jpg"
                     link="https://github.com/JohnHerron/checkers-bot"
                 />
+                <ProjectCard 
+                    title="Pirate Platformer" 
+                    img="https://img.itch.zone/aW1nLzEwNzUyMjg4LnBuZw==/315x250%23c/abnleM.png"
+                    link="https://github.com/JohnHerron/pirate-platformer"
+                />
+                <ProjectCard 
+                    title="Crossy Road Clone" 
+                    img="https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/03/09/14/crossyroad.jpg"
+                    link="https://github.com/JohnHerron/crossyroad"
+                />
             </div>
         </div>
     );
