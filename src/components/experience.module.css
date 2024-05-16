@@ -1,4 +1,29 @@
 .experienceContainer {
+    background-color: inherit;
+    width: 70%;
+    height: fit-content;
     display: flex;
-    
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+}
+
+.cardContainer {
+    text-align: center;
+    display: grid;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    background-color: inherit;
+}
+
+
+.cardCarousel {
+    display: flex;
+    background-color: inherit;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
 }

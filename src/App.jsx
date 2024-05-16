@@ -1,8 +1,9 @@
 import './App.css';
 import Nav from "./components/Nav";
+import PageContainer from "./components/PageContainer"
 import About from "./components/About";
 import Experience from "./components/Experience";
-import PageContainer from "./components/PageContainer"
+import Projects from './components/Projects';
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
       <PageContainer>
         <About />
         <Experience />
-        {/* <Projects /> */}
+        <Projects />
       </PageContainer>
     </>
   );
