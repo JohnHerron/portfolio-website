@@ -5,7 +5,7 @@ export default function Nav() {
     return (
         <div className={style.nav}>
             <div className={style.helloContainer}>
-                <img className={style.headshot} src="src\assets\headshot.png"/>
+                <img className={style.headshot} src="./headshot.png"/>
                 <h1 className={style.name}>John Herron</h1>
             </div>
             <div className={style.btnContainer}>

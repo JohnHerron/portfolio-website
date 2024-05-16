@@ -19,12 +19,12 @@ export default function Experience() {
             <div className={style.cardContainer}>
                 <h3>Skills</h3>
                 <div className={style.cardCarousel}>
-                    <SmallCard skill="Python" img="src\assets\python.png"/>
-                    <SmallCard skill="React" img="src\assets\react.png"/>
-                    <SmallCard skill="C++" img="src\assets\cpp.svg"/>
-                    <SmallCard skill="Git" img="src\assets\git.png"/>
-                    <SmallCard skill="JavaScript" img="src\assets\javascript.png"/>
-                    <SmallCard skill="NextJS" img="src\assets\nextjs.png"/>
+                    <SmallCard skill="Python" img=".\python.png"/>
+                    <SmallCard skill="React" img=".\react.png"/>
+                    <SmallCard skill="C++" img=".\cpp.svg"/>
+                    <SmallCard skill="Git" img=".\git.png"/>
+                    <SmallCard skill="JavaScript" img=".\javascript.png"/>
+                    <SmallCard skill="NextJS" img=".\nextjs.png"/>
                 </div>
             </div>
         </div>
