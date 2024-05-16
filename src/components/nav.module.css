@@ -53,15 +53,11 @@
 
 .btnLink {
     background-color: inherit;
-}
-
-.linkText {
-    background-color: inherit;
-    display: inline-block;
     transition: transform 0.3s ease;
+    
 }
 
-.btnLink:hover .linkText{
+.button:hover .btnLink{
     transform: scale(105%);
     color: #9a9ce7;
 }
