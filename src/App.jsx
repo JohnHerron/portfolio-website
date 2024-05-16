@@ -10,6 +10,7 @@ function App() {
 
   return (
     <>
+      {/* This is the basic page layout */}
       <Nav />
       <PageContainer>
         <About />
