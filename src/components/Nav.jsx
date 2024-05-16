@@ -11,16 +11,16 @@ export default function Nav() {
             <div className={style.btnContainer}>
                 <button className={style.button}>
                     <Link className={style.btnLink} to='projects' offset={-250} smooth={true} duration-500>
-                        Projects
+                        <span className={style.linkText}>Projects</span>
                     </Link></button>
                 <button className={style.button}>
                     <Link className={style.btnLink} to='experience' offset={-250} smooth={true} duration-500>
-                        Experience
+                        <span className={style.linkText}>Experience</span>
                     </Link>
                 </button>
                 <button className={style.button}>
                     <Link className={style.btnLink} to='about' offset={-400} smooth={true} duration-500>
-                        About
+                        <span className={style.linkText}>About</span>
                     </Link>
                 </button>
             </div>

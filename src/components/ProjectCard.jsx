@@ -12,7 +12,7 @@ const Card = ({title, img, link}) => {
                 rel="noopener noreferrer"
                 href={link}
             >
-                See Here
+                <span className={style.linkText}>See Here</span>
             </a>
         </div>
     );

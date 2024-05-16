@@ -82,19 +82,35 @@
 
 .link {
     background: none;
+    display:inline-block;
     text-align: center;
     text-decoration: none;
     margin-top: 0px;
-    &:hover {
-        transform: scale(120%);
-    }
+}
+
+.linkText {
+    background-color: inherit;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.link:hover .linkText{
+    transform: scale(120%);
+    color:#9a9ce7;
 }
 
 .projectTitle {
     font-size: 1.5rem;
     font-weight: bold;
     background: none;
-    color: #9a9ce7;
+    background-color:#201d1d;
+    border-style:solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    padding:5px 8px;
+    width: fit-content;
+    color:white;
 }
 
 .projectCardContainer {

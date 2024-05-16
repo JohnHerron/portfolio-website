@@ -39,12 +39,7 @@
     margin: 0;
     padding: 0;
     font-size: 1.3rem;
-    &:hover {
-        transform: scale(107%)
-    }
 }
-
-
 
 .btnContainer {
     background-color: 	#201d1d;
@@ -55,4 +50,15 @@
 
 .btnLink {
     background-color: inherit;
+}
+
+.linkText {
+    background-color: inherit;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.btnLink:hover .linkText{
+    transform: scale(105%);
+    color: #9a9ce7;
 }

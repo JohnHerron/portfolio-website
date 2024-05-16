@@ -24,7 +24,7 @@ h3 {
     margin: 0px;
 }
 
-span {
+.lastName {
     color: orange;
     background-color: inherit;
 }
