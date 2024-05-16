@@ -10,6 +10,7 @@ export default function Contact() {
                 <textarea placeholder="Message" rows={10} name="message"></textarea>
             </div>
             <button type="submit" className={style.formButton}>Send</button>
+            <p>You can also contact me at <a className={style.emailLink} href="mailto:johnherron.business@gmail.com">johnherron.business@gmail.com</a></p>
         </form>
     );
 }

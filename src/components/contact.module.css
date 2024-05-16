@@ -40,3 +40,7 @@ input, textarea {
         font-weight: bold;
     }
 }
+
+.emailLink {
+    background-color: inherit;
+}
