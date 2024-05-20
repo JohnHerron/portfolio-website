@@ -39,9 +39,6 @@
     margin: 0;
     padding: 0;
     font-size: 1.3rem;
-    &:hover {
-        border-bottom: 5px solid #9a9ce7;
-    }
 }
 
 .btnContainer {
@@ -52,12 +49,14 @@
 }
 
 .btnLink {
+    display: flex;
     background-color: inherit;
     transition: transform 0.3s ease;
-    
+    &:hover {
+        border-bottom: 5px solid #9a9ce7;
+    }
 }
 
-.button:hover .btnLink{
-    transform: scale(105%);
+.btnLink:hover .button{
     color: #9a9ce7;
 }
